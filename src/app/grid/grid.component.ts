@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {SiteRank} from './SiteRank';
 import { Observable } from 'rxjs/Observable';
 import {HttpClient, HttpErrorResponse} from '@angular/common/http';
 @Component({
