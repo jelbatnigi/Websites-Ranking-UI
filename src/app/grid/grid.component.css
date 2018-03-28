@@ -1,0 +1,13 @@
+.table-hr {
+    width: 70%;
+    max-width: 70%;
+    margin-bottom: 20px;
+    align-self: center;
+}
+th {
+  text-align: center;
+}
+.maindiv{
+    display: flex;
+  justify-content: center;
+}

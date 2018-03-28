@@ -1,0 +1,23 @@
+<div>
+    Select a date:
+    <input type="date" name="bday" (change)="selected($event)">
+</div>
+<br>
+<br>
+<div class="container maindiv">
+<table class="table table-hr">
+  <thead align="center">
+    <tr>
+      <th scope="col">WEBSITE</th>
+      <th scope="col">VISITS</th>
+    </tr>
+    <tr *ngFor="let site of getKeys()">
+      <td>
+        {{site}}
+      </td>
+      <td>{{response[site]}}</td>
+
+    </tr>
+  </thead>
+</table>
+</div>
